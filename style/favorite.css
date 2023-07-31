@@ -1,0 +1,9 @@
+body{
+    background: url(https://developer.marvel.com/i/images/developers/account-bg.jpg) no-repeat;
+  
+}
+
+/* navigation */
+header > .card-header{
+    justify-content: space-evenly;
+}
