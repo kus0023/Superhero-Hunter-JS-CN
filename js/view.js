@@ -45,3 +45,8 @@ function updateUI(hero) {
     document.title = hero.name
 
 }
+
+
+document.getElementById('home-btn').addEventListener('click', (e)=>{
+    location.replace(location.toString()+'/..')
+})

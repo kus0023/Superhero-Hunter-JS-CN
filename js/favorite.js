@@ -44,7 +44,8 @@ function udpateFavoriteHero(hero) {
 
 function viewHero(heroId) {
     localStorage.setItem('view_hero', heroId);
-    location.replace('/view.html');
+    
+    location.replace(location.toString()+ '/../view.html');
 }
 
 function removeFavoriteHero(e){
